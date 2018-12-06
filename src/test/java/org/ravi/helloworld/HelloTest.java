@@ -14,12 +14,12 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class HelloTest {
-
+/*
 	WebDriver driver;
 	WebElement text;
-	@BeforeTest
+	//@BeforeTest
 	public void beforeTest() {
-		/*	System.setProperty("webdriver.gecko.driver", "resources\\geckodriver32.exe");
+		System.setProperty("webdriver.gecko.driver", "resources\\geckodriver32.exe");
 		driver = new FirefoxDriver();*/
 		System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -27,19 +27,19 @@ public class HelloTest {
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 	}
 
-	@Test
+	//@Test
 	public void f() {
 
 		text = driver.findElement(By.xpath("html/body/h2"));
 		Assert.assertEquals(driver.getTitle(), "");
 		System.out.println("Test Passed");
 
-	}
+	} 
 
-	@AfterTest
-	public void afterTest() {
+	//@AfterTest
+	/*public void afterTest() {
 		//driver.close();
-	}
+	} */
 
 
 }
