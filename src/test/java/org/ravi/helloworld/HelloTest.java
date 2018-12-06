@@ -37,9 +37,9 @@ public class HelloTest {
 	} 
 
 	//@AfterTest
-	//*public void afterTest() {
-		//driver.close();
-	//} 
+	*public void afterTest() {
+	driver.close();
+	} 
 	*/
 
 
