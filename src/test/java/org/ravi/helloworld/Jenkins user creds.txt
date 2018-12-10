@@ -1,0 +1,13 @@
+GowthamAU/Gowthammanja@123 - Git hub
+
+Gowtham/Gowtham@123 --Jenkins creds
+
+http://localhost:8002/ -Tomcat admin/admin
+
+http://localhost:9000/projects  - SonarCube
+
+git add .
+
+git commit -m "add commit"
+
+git push
